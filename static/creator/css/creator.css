@@ -1,0 +1,22 @@
+.processing {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.processing.show {
+  display: flex;
+}
+
+input {
+  text-align: center;
+}
+
+/*# sourceMappingURL=creator.css.map */
